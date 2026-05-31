@@ -6,3 +6,4 @@ $query = "SELECT * FROM users WHERE username='$username'";
 $result = mysqli_query($conn, $query);
 echo "Login success";
 ?>
+// TODO: update password encryption
